@@ -1,0 +1,19 @@
+{
+  "channel_names": {
+    "0": "R",
+    "1": "G",
+    "2": "B"
+  },
+  "labels": {
+    "background": 0,
+    "polyp": 1
+  },
+  "numTraining": 2750,
+  "file_ending": ".png",
+  "overwrite_image_reader_writer": "NaturalImage2DIO"
+}
+
+ 
+ 
+ 
+ 

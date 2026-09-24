@@ -10,8 +10,8 @@
 - [x] arXiv preprint is now available!
 - [x] LightMIS Code Release.
   - [x] LightMIS official implementation is now available!
-  - [ ] exact five fold partitions
-  - [ ] nnU-Net plan files
+  - [x] exact five fold partitions
+  - [x] nnU-Net plan files
   - [ ] dataset-conversion scripts
   - [ ] baseline commit hashes
   - [ ] checkpoints
