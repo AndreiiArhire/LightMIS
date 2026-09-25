@@ -12,7 +12,7 @@
   - [x] LightMIS official implementation is now available!
   - [x] exact five fold partitions
   - [x] nnU-Net plan files
-  - [ ] dataset-conversion scripts
+  - [x] dataset-conversion scripts
   - [ ] baseline commit hashes
   - [ ] checkpoints
   - [ ] metric implementation
