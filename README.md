@@ -14,9 +14,9 @@
   - [x] nnU-Net plan files
   - [x] dataset-conversion scripts
   - [x] baseline commit hashes
-  - [ ] checkpoints
-  - [ ] metric implementation
-  - [ ] FLOP-counting script
+  - [x] checkpoints
+  - [x] metric implementation
+  - [x] FLOP-counting script
   - [ ] LiteRT conversion code
   - [ ] desktop and mobile benchmarking scripts
 
