@@ -18,6 +18,6 @@
   - [x] metric implementation
   - [x] FLOP-counting script
   - [x] LiteRT conversion code
-  - [ ] desktop and mobile benchmarking scripts
+  - [x] desktop and mobile benchmarking scripts
 
 
