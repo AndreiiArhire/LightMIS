@@ -17,7 +17,7 @@
   - [x] checkpoints
   - [x] metric implementation
   - [x] FLOP-counting script
-  - [ ] LiteRT conversion code
+  - [x] LiteRT conversion code
   - [ ] desktop and mobile benchmarking scripts
 
 
