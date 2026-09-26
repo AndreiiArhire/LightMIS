@@ -1,0 +1,1 @@
+Checkpoints for LightMIS, LightMIS-S, and LightMIS-T across six datasets and five-fold cross-validation are available on [Google Drive](https://drive.google.com/drive/u/0/folders/1wnlfxCseclMGReRdaW_c77-_fb0mZRiW).
