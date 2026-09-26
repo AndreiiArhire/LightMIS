@@ -13,7 +13,7 @@
   - [x] exact five fold partitions
   - [x] nnU-Net plan files
   - [x] dataset-conversion scripts
-  - [ ] baseline commit hashes
+  - [x] baseline commit hashes
   - [ ] checkpoints
   - [ ] metric implementation
   - [ ] FLOP-counting script
