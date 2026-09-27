@@ -56,6 +56,14 @@ CUDA_VISIBLE_DEVICES=0 nnUNetv2_train 100 2d 4 -tr nnUNetTrainer_LightMIS
   - The [**metric implementation, FLOP-counting, LiteRT conversion, and desktop and mobile benchmarking scripts**](scripts).
 
 
+## Citation
+
+
+## Acknowledgments
+
+We thank the authors of the compared methods for making their work publicly available.
+In particular, we acknowledge [AULUNet](https://github.com/maklachur/AULUNet) for the original AKF design.
+
 ## Contact
 
 andrei.arhire@info.uaic.ro
