@@ -58,11 +58,15 @@ CUDA_VISIBLE_DEVICES=0 nnUNetv2_train 100 2d 4 -tr nnUNetTrainer_LightMIS
 
 ## Citation
 
+If you find our work useful or inspiring for your research, please cite our paper:
+
 
 ## Acknowledgments
 
 We thank the authors of the compared methods for making their work publicly available.
 In particular, we acknowledge [AULUNet](https://github.com/maklachur/AULUNet) for the original AKF design.
+
+This work was supported by the European Regional Development Fund under Grant No. 338317 (SMIS code).
 
 ## Contact
 
