@@ -1,6 +1,8 @@
 # LightMIS: Ultra-Lightweight Medical Image Segmentation Without a Stage-Wise Decoder
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/pdf/2609.28327)
+[![Paper page](https://huggingface.co/datasets/huggingface/badges/raw/main/paper-page-md-dark.svg)](https://huggingface.co/papers/2609.28327)
+
 
 [Andrei Arhire](https://scholar.google.com/citations?user=BYkEZGFPq1wC&hl=en), [Mihaela Breaban](https://scholar.google.com/citations?user=i6CD3TIAAAAJ&hl=en), [Radu Timofte](https://scholar.google.com/citations?user=u3MwH5kAAAAJ&hl=en)
 
