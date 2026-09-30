@@ -73,7 +73,7 @@ class ResAKF(nn.Module):
     def __init__(self, channels: int):
         super().__init__()
         self.akf = AKF(channels)
-        self.gamma = nn.Parameter(torch.zeros(1))
+        self.gamma = nn.Parameter(torch.full((1,), 0.05))
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         return x + self.gamma * self.akf(x)
@@ -132,7 +132,7 @@ class PRF(nn.Module):
     def __init__(self, channels: int):
         super().__init__()
         self.core = PRFCore(channels)
-        self.gamma = nn.Parameter(torch.zeros(1))
+        self.gamma = nn.Parameter(torch.full((1,), 0.05))
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         return x + self.gamma * self.core(x)
@@ -331,7 +331,4 @@ class nnUNetTrainer_LightMIS(
             deep_supervised=enable_deep_supervision,
         )
         model.apply(InitWeights_He(1e-2))
-        for module in model.modules():
-            if isinstance(module, (PRF, ResAKF)):
-                nn.init.constant_(module.gamma, 0.05)
         return model
